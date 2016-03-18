@@ -74,7 +74,7 @@ void PhysicsList::ConstructOpticalProcesses() {
   opBoundaryProcess->SetVerboseLevel(verboseLevel-1);
 
   // Apply processes to all particles where applicable
-  theParticleIterator->reset();
+ /* theParticleIterator->reset();
   while((*theParticleIterator)()) {
     G4ParticleDefinition* particle = theParticleIterator->value();
     G4ProcessManager* pmanager = particle->GetProcessManager();
@@ -88,6 +88,7 @@ void PhysicsList::ConstructOpticalProcesses() {
       pmanager->AddDiscreteProcess(opBoundaryProcess);
     }
   }
+*/
 }
 
 void PhysicsList::AddParameterization() {
