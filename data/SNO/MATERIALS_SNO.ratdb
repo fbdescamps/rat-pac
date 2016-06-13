@@ -46,3 +46,27 @@ elements: ["Deuterium", "Oxygen",],
 elemprop: [0.2011, 0.7989],
 }
 
+{
+name: "ELEMENT",
+index: "natchlorine",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+SYMBOL: "natCl",
+z: 17,
+isotopes: [35, 37],
+isotopes_frac: [0.7577, 0.2423],
+}
+
+
+{
+name: "MATERIAL",
+index: "HeavyWater_salt",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.1056,
+nelements: 4,
+nmaterials: 0,
+elements: ["Deuterium", "Oxygen", "Sodium", "natchlorine",],
+elemprop: [0.200731, 0.797269, 0.00078, 0.001213 ],
+}
+
